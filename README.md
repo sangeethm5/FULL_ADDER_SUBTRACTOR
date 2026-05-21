@@ -61,6 +61,7 @@ Developed by: Sangeeth M
 RegisterNumber:212225100043
 */
 **FULL ADDER**
+
 module exp4(df,bo,a,b,bin);
 output df;
 output bo;
@@ -76,6 +77,7 @@ assign bo=w2|w3;
 endmodule
 
 **FULL SUBTRACTOR**
+
 module full_subtractor(diff, borrow, a, b, bin);
   output diff;
   output borrow;
